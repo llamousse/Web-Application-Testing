@@ -1,9 +1,11 @@
 import React from 'react';
 
 const Display = (props) => {
+    // console.log(props);
     return (
         <div>
-            <h1>Strikes: {props.strikes} | Balls: {props.balls}</h1>
+            <div>Strikes: {props.strikes}</div>
+            <div>Balls: {props.balls}</div>
         </div>
     );
 };
